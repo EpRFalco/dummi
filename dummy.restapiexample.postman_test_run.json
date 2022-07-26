@@ -1,0 +1,201 @@
+{
+	"id": "13fe255b-7738-4e67-ada8-717e3b8d3437",
+	"name": "dummy.restapiexample",
+	"timestamp": "2022-07-26T13:16:48.217Z",
+	"collection_id": "bef1ddeb-6614-4bd7-a2c2-43fef3f52a08",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"totalFail": 9,
+	"results": [
+		{
+			"id": "2eb56236-ebdc-4163-92e5-cc80673b72e1",
+			"name": "new request",
+			"time": 623,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Body matches string": false,
+				"Your test name": false,
+				"Body is correct": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Body matches string": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Your test name": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Body is correct": {
+					"pass": 2,
+					"fail": 1
+				}
+			},
+			"times": [
+				1106,
+				739,
+				623
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Your test name": true,
+					"Body is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Your test name": true,
+					"Body is correct": true
+				},
+				{
+					"Status code is 200": false,
+					"Body matches string": false,
+					"Your test name": false,
+					"Body is correct": false
+				}
+			]
+		},
+		{
+			"id": "71522cba-ae5b-4fbc-b2f1-35616a3cf25c",
+			"name": "GetEmployeeByIdExistant",
+			"time": 624,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				755,
+				660,
+				624
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "d67a292c-6597-47b2-8734-7d3102b84dd1",
+			"name": "CreateEmployee",
+			"time": 631,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {
+				"Successful POST request": false,
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 3
+				},
+				"Your test name": {
+					"pass": 3,
+					"fail": 2
+				}
+			},
+			"times": [
+				698,
+				561,
+				631
+			],
+			"allTests": [
+				{
+					"Successful POST request": false,
+					"Your test name": true
+				},
+				{
+					"Successful POST request": false,
+					"Your test name": true
+				},
+				{
+					"Successful POST request": false,
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "a714cc40-16d2-4835-95fd-3bd7317c1c3e",
+			"name": "UpgradeSalaireEmployee",
+			"time": 580,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				810,
+				558,
+				580
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "bf9ca86e-6528-473a-a312-4c5f64a2070d",
+			"name": "DeleteEmployeeById",
+			"time": 593,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				689,
+				635,
+				593
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 10262,
+	"collection": {
+		"requests": [
+			{
+				"id": "2eb56236-ebdc-4163-92e5-cc80673b72e1",
+				"method": "GET"
+			},
+			{
+				"id": "71522cba-ae5b-4fbc-b2f1-35616a3cf25c",
+				"method": "GET"
+			},
+			{
+				"id": "d67a292c-6597-47b2-8734-7d3102b84dd1",
+				"method": "POST"
+			},
+			{
+				"id": "a714cc40-16d2-4835-95fd-3bd7317c1c3e",
+				"method": "PUT"
+			},
+			{
+				"id": "bf9ca86e-6528-473a-a312-4c5f64a2070d",
+				"method": "DELETE"
+			}
+		]
+	}
+}
